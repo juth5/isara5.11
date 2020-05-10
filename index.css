@@ -1,0 +1,209 @@
+img{
+  max-width: 100%;
+  /* height: auto; */
+}
+
+.header{
+  height: 70px;
+  display:flex;
+  justify-content: space-between;
+}
+.header-left{
+  height: 50px;
+  /* display:flex;
+  flex-direction: column;
+  align-content: flex-start; */
+}
+.header-left p {
+  margin: 0;
+}
+.header-right{
+ height: 70px;
+ width:70px;
+ background-color: #da6b64;
+ display: flex;
+ flex-direction: column;
+justify-content: center;
+}
+.header-right a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  display: block;
+}
+.header-left img {
+  width: 100px;
+}
+/* ここから２段目 */
+.main-contents{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 400px;
+   text-align: center;
+}
+#back-image{ 
+  background-image:url("tai1.jpg");
+  background-size: cover;               /* 全画面 */
+   background-position: center center;  
+   position: relative;
+}
+.main-contents-center{
+  width: 350px;
+}
+.info-1{
+  font-size: 35px;
+}
+.info-2{
+  font-size: 25px;
+}
+/* ここからが３段目 */
+#haikei{
+  /* height: 400px; */
+  background-color:#ebb94d;
+  padding-top: 10px;
+  text-align: center;
+}
+.info-2-1{
+  font-size: 20px;
+  color: white;
+}
+.info-2-2{
+  background: white;
+  color: red;
+  width: 450px;
+  margin: 0 auto 20px;
+  border-radius: 5px;
+  /* display:inline-block; */
+}
+.info-2-3{
+  font-size: 20px;
+  color:white;
+  background: #da6b64;;
+  border-radius: 50px;
+  padding:10px 30px;
+  text-decoration:none;
+}
+.info-2-4,.info-2-5,.info-2-6{
+  color: white;
+}
+.buttons{
+padding-bottom:30px;
+}
+.button-t{
+  background:skyblue;
+  cursor:pointer;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+}
+.button-t:focus{
+outline:0;
+}
+.button-f{
+  background: blue;
+  border-radius: 5px;
+  cursor:pointer;
+  color: white;
+  font-size: 20px;
+}
+.button-f:focus{
+  outline:0;
+  }
+.button-s{
+  background: blue;
+  border-radius: 5px;
+  cursor:pointer;
+  color: white;
+  font-size: 17px;
+  /* padding-top:2px; */
+  padding:2px 3px 1px 3px;
+}
+.button-s:focus{
+  outline:0;
+  }
+.main-contents3{
+  text-align: center;
+  /* background:url("tai4.jpg") ;
+  background-size: cover; */
+}
+/* ここからが４段目 */
+.main-contents3 p {
+  margin-top: 20px;
+}
+.main3-info{
+  font-size: 20px;
+  font-weight: bold;
+  display: inline-block;
+}
+.box19 {
+  position: relative;
+  padding:0.25em 1em;
+  display:inline-block;
+  margin-top: 50px;
+  font-size: 20px;
+}
+.box19:before,.box19:after{ 
+  content:'';
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  display: inline-block;
+}
+.box19:before{
+  border-left: solid 5px #ebb94d;
+  border-top: solid 5px #ebb94d;
+  top:0;
+  left: 0;
+}
+.box19:after{
+  border-right: solid 5px #ebb94d;
+  border-bottom: solid 5px #ebb94d;
+  bottom:0;
+  right: 0;
+}
+.box19 p {
+  margin: 0; 
+  padding: 0;
+}
+.main-contents3 span {
+  font-weight: bold;
+  border-bottom: solid 5px #ebb94d;
+}
+.main-contents3-image{
+position: relative;
+}
+.about{
+  position: absolute;
+  top:50px;
+  left:200px;
+  text-transform: uppercase;
+  border-radius: 50%;
+  width:100px;
+  height:100px;
+  background:skyblue;
+  text-align: center;
+  line-height: 100px;
+  display: block;
+  margin:  auto;
+}
+.main-contents4{
+  text-align: center;
+  background-color:#fef5e0;
+}
+.box-contents{
+  width: 900px;
+  margin: 0 auto;
+  border: 3px solid #ebb94d;
+  background-color: white;
+  font-size: 30px;
+}
+.box-container{
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  
+}
